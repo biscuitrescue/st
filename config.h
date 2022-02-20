@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "IBM 3270 Narrow:pixelsize=19:antialias=true:autohint=true";
+static char *font = "spacemono for powerline:weight=bold:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -94,36 +94,36 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#1b1c26",
-	"#ebb9b9",
-	"#5aec79",
-	"#e6dfb8",
-	"#b8dceb",
-	"#f6bbe7",
-	"#cddbf9",
-	"#f3f4f5",
+	"#282c34",
+	"#e06c75",
+	"#98c379",
+	"#e5c07b",
+	"#61afef",
+	"#be5046",
+	"#56b6c2",
+	"#979eab",
 
 	/* 8 bright colors */
-	"#313449",
-	"#ebb9b9",
-	"#5aec79",
-	"#e6dfb8",
-	"#b8dceb",
-	"#f6bbe7",
-	"#cddbf9",
+	"#393e48",
+	"#d19a66",
+	"#56b6c2",
+	"#e5c07b",
+	"#61afef",
+	"#be5046",
+	"#56b6c2",
 	"#f3f4f5",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#f3f4f5",
-	"#1b1c26",
-	"#1b1c26",
+	"#282c34",
+	"#282c34",
 };
 
 
